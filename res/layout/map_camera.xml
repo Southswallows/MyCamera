@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text="迈俊视频喉镜平台"
+        android:textColor="#8B8B7A"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/arc_hf_img_btnGridShow"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/white_selector"
+        android:text="@string/arc_hf_btnBrowse"
+        android:textColor="#4F4F4F" />
+
+    <Button
+        android:id="@+id/btnVideo"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/white_selector"
+        android:text="@string/btnVideo"
+        android:textColor="#4F4F4F" />
+
+    <Button
+        android:id="@+id/arc_hf_video_btnVideoBrowse"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/white_selector"
+        android:text="@string/btnVideoBrowse"
+        android:textColor="#4F4F4F" />
+
+</LinearLayout>
